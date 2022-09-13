@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="93" passed="87">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Session has been Started Sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Login Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Shipment Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Invoice processed Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Invoice processed has been Completed sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Order Template Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Order Template has been Completed sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Kit Template has been Completed sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Shop Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Warehouse Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====ScanOut Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====ScanIn Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====ScanOut Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Charge Resident Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Inventory Transfer Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Inventory Receive Started sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Inventory Transfer has been Completed sucessfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====BillOnly Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Claims Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Cycle count Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Cycle Count Completed Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====News And Events Started=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Hybrent" duration-ms="3303258" started-at="2022-08-29T05:54:07Z" finished-at="2022-08-29T06:49:10Z">
+    <groups>
+    </groups>
+    <test name="Hybrent Mobile Automation" duration-ms="3303258" started-at="2022-08-29T05:54:07Z" finished-at="2022-08-29T06:49:10Z">
+      <class name="Hybrent4_0_0rc1.Inventory_Transfer">
+        <test-method status="PASS" signature="VerifyInventoryTransferButtonTap()[pri:45, instance:Hybrent4_0_0rc1.Inventory_Transfer@1593948d]" name="VerifyInventoryTransferButtonTap" duration-ms="19074" started-at="2022-08-29T12:06:22Z" finished-at="2022-08-29T12:06:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Inventory Transfer Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyInventoryTransferButtonTap -->
+        <test-method status="PASS" signature="VerifyAddItemTransfer()[pri:46, instance:Hybrent4_0_0rc1.Inventory_Transfer@1593948d]" name="VerifyAddItemTransfer" duration-ms="28269" started-at="2022-08-29T12:06:41Z" finished-at="2022-08-29T12:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddItemTransfer -->
+        <test-method status="PASS" signature="VerifyCompleteInventoryTransfer()[pri:47, instance:Hybrent4_0_0rc1.Inventory_Transfer@1593948d]" name="VerifyCompleteInventoryTransfer" duration-ms="3733" started-at="2022-08-29T12:07:09Z" finished-at="2022-08-29T12:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompleteInventoryTransfer -->
+      </class> <!-- Hybrent4_0_0rc1.Inventory_Transfer -->
+      <class name="Hybrent4_0_0rc1.Profile">
+        <test-method status="PASS" signature="VerifyProfileButtonTap()[pri:72, instance:Hybrent4_0_0rc1.Profile@39aeed2f]" name="VerifyProfileButtonTap" duration-ms="41785" started-at="2022-08-29T12:16:31Z" finished-at="2022-08-29T12:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProfileButtonTap -->
+        <test-method status="PASS" signature="VerifyProfileScreen()[pri:73, instance:Hybrent4_0_0rc1.Profile@39aeed2f]" name="VerifyProfileScreen" duration-ms="30532" started-at="2022-08-29T12:17:13Z" finished-at="2022-08-29T12:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProfileScreen -->
+      </class> <!-- Hybrent4_0_0rc1.Profile -->
+      <class name="Hybrent4_0_0rc1.Cycle_Count">
+        <test-method status="PASS" signature="VerifyCycleCountButtonTap()[pri:62, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyCycleCountButtonTap" duration-ms="19775" started-at="2022-08-29T12:13:11Z" finished-at="2022-08-29T12:13:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Cycle count Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCycleCountButtonTap -->
+        <test-method status="PASS" signature="VerifyCycleCountPage()[pri:63, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyCycleCountPage" duration-ms="31277" started-at="2022-08-29T12:13:31Z" finished-at="2022-08-29T12:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCycleCountPage -->
+        <test-method status="PASS" signature="VerifyIntiateCycleCount()[pri:64, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyIntiateCycleCount" duration-ms="31306" started-at="2022-08-29T12:14:02Z" finished-at="2022-08-29T12:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIntiateCycleCount -->
+        <test-method status="PASS" signature="VerifyNotCountedItem()[pri:65, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyNotCountedItem" duration-ms="13564" started-at="2022-08-29T12:14:34Z" finished-at="2022-08-29T12:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNotCountedItem -->
+        <test-method status="PASS" signature="VerifyCountedItem()[pri:66, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyCountedItem" duration-ms="5609" started-at="2022-08-29T12:14:47Z" finished-at="2022-08-29T12:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCountedItem -->
+        <test-method status="PASS" signature="VerifyNewItem()[pri:67, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="VerifyNewItem" duration-ms="20895" started-at="2022-08-29T12:14:53Z" finished-at="2022-08-29T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewItem -->
+        <test-method status="PASS" signature="CompleteCycleCount()[pri:68, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="CompleteCycleCount" duration-ms="45257" started-at="2022-08-29T12:15:14Z" finished-at="2022-08-29T12:15:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Cycle Count Completed Successfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompleteCycleCount -->
+        <test-method status="PASS" signature="Verify_CycleCount()[pri:69, instance:Hybrent4_0_0rc1.Cycle_Count@457e2f02]" name="Verify_CycleCount" duration-ms="4428" started-at="2022-08-29T12:15:59Z" finished-at="2022-08-29T12:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CycleCount -->
+      </class> <!-- Hybrent4_0_0rc1.Cycle_Count -->
+      <class name="Hybrent4_0_0rc1.Invoice">
+        <test-method status="PASS" signature="VerifyInvoiceButtonTap()[pri:24, instance:Hybrent4_0_0rc1.Invoice@20e2cbe0]" name="VerifyInvoiceButtonTap" duration-ms="132146" started-at="2022-08-29T11:45:10Z" finished-at="2022-08-29T11:47:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Invoice processed Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyInvoiceButtonTap -->
+        <test-method status="PASS" signature="VerifyInvoiceDeatilPage()[pri:25, instance:Hybrent4_0_0rc1.Invoice@20e2cbe0]" name="VerifyInvoiceDeatilPage" duration-ms="5629" started-at="2022-08-29T11:47:22Z" finished-at="2022-08-29T11:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvoiceDeatilPage -->
+        <test-method status="PASS" signature="VerifyProcessedInvoice()[pri:26, instance:Hybrent4_0_0rc1.Invoice@20e2cbe0]" name="VerifyProcessedInvoice" duration-ms="73881" started-at="2022-08-29T11:47:27Z" finished-at="2022-08-29T11:48:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Invoice processed has been Completed sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProcessedInvoice -->
+      </class> <!-- Hybrent4_0_0rc1.Invoice -->
+      <class name="Hybrent4_0_0rc1.BillAndReplace">
+        <test-method status="PASS" signature="VerifyTap_BillAndReplace()[pri:16, instance:Hybrent4_0_0rc1.BillAndReplace@2a2d45ba]" name="VerifyTap_BillAndReplace" duration-ms="54872" started-at="2022-08-29T11:33:21Z" finished-at="2022-08-29T11:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTap_BillAndReplace -->
+        <test-method status="PASS" signature="VerifyAddItem_BillAndReplace()[pri:17, instance:Hybrent4_0_0rc1.BillAndReplace@2a2d45ba]" name="VerifyAddItem_BillAndReplace" duration-ms="14036" started-at="2022-08-29T11:34:16Z" finished-at="2022-08-29T11:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddItem_BillAndReplace -->
+        <test-method status="PASS" signature="Generate_BillAndReplace_PO()[pri:18, instance:Hybrent4_0_0rc1.BillAndReplace@2a2d45ba]" name="Generate_BillAndReplace_PO" duration-ms="77922" started-at="2022-08-29T11:34:30Z" finished-at="2022-08-29T11:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_BillAndReplace_PO -->
+        <test-method status="PASS" signature="Verify_BillAndReplace_PO()[pri:19, instance:Hybrent4_0_0rc1.BillAndReplace@2a2d45ba]" name="Verify_BillAndReplace_PO" duration-ms="144495" started-at="2022-08-29T11:35:48Z" finished-at="2022-08-29T11:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_BillAndReplace_PO -->
+        <test-method status="PASS" signature="Recieve_BillAndReplace_PO()[pri:20, instance:Hybrent4_0_0rc1.BillAndReplace@2a2d45ba]" name="Recieve_BillAndReplace_PO" duration-ms="338445" started-at="2022-08-29T11:38:13Z" finished-at="2022-08-29T11:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recieve_BillAndReplace_PO -->
+      </class> <!-- Hybrent4_0_0rc1.BillAndReplace -->
+      <class name="Hybrent4_0_0rc1.Cart">
+        <test-method status="PASS" signature="Verify_Cart()[pri:9, instance:Hybrent4_0_0rc1.Cart@548a9f61]" test-instance-name="" name="Verify_Cart" duration-ms="123836" started-at="2022-08-29T11:26:05Z" finished-at="2022-08-29T11:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cart -->
+        <test-method status="PASS" signature="Verify_ADDItemsFromCart()[pri:10, instance:Hybrent4_0_0rc1.Cart@548a9f61]" test-instance-name="" name="Verify_ADDItemsFromCart" duration-ms="41866" started-at="2022-08-29T11:28:09Z" finished-at="2022-08-29T11:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ADDItemsFromCart -->
+        <test-method status="PASS" signature="Create_Order()[pri:11, instance:Hybrent4_0_0rc1.Cart@548a9f61]" test-instance-name="" name="Create_Order" duration-ms="46768" started-at="2022-08-29T11:28:51Z" finished-at="2022-08-29T11:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Order -->
+      </class> <!-- Hybrent4_0_0rc1.Cart -->
+      <class name="Hybrent4_0_0rc1.BillOnly">
+        <test-method status="PASS" signature="VerifyBillOnlyButtonTap()[pri:51, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="VerifyBillOnlyButtonTap" duration-ms="19637" started-at="2022-08-29T12:09:17Z" finished-at="2022-08-29T12:09:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====BillOnly Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyBillOnlyButtonTap -->
+        <test-method status="PASS" signature="VerifyAddCases()[pri:52, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="VerifyAddCases" duration-ms="32008" started-at="2022-08-29T12:09:37Z" finished-at="2022-08-29T12:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddCases -->
+        <test-method status="PASS" signature="VerifyAddNewItemBillOnly()[pri:53, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="VerifyAddNewItemBillOnly" duration-ms="32720" started-at="2022-08-29T12:10:09Z" finished-at="2022-08-29T12:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewItemBillOnly -->
+        <test-method status="PASS" signature="GenerateOrderBillOnly()[pri:54, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="GenerateOrderBillOnly" duration-ms="27015" started-at="2022-08-29T12:10:42Z" finished-at="2022-08-29T12:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateOrderBillOnly -->
+        <test-method status="PASS" signature="VendorSignature()[pri:55, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="VendorSignature" duration-ms="12981" started-at="2022-08-29T12:11:09Z" finished-at="2022-08-29T12:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorSignature -->
+        <test-method status="PASS" signature="HospitalSignature()[pri:56, instance:Hybrent4_0_0rc1.BillOnly@7823a2f9]" name="HospitalSignature" duration-ms="27627" started-at="2022-08-29T12:11:22Z" finished-at="2022-08-29T12:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HospitalSignature -->
+      </class> <!-- Hybrent4_0_0rc1.BillOnly -->
+      <class name="Hybrent4_0_0rc1.Warehouse">
+        <test-method status="PASS" signature="Verify_WarehouseShop()[pri:36, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseShop" duration-ms="15037" started-at="2022-08-29T11:55:35Z" finished-at="2022-08-29T11:55:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Shop Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseShop -->
+        <test-method status="PASS" signature="Verify_Warehousefacility()[pri:37, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_Warehousefacility" duration-ms="8499" started-at="2022-08-29T11:55:50Z" finished-at="2022-08-29T11:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Warehousefacility -->
+        <test-method status="PASS" signature="Verify_WarehouseitemAddInShop()[pri:38, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseitemAddInShop" duration-ms="21093" started-at="2022-08-29T11:55:58Z" finished-at="2022-08-29T11:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseitemAddInShop -->
+        <test-method status="PASS" signature="Verify_WarehouseItemInCart()[pri:39, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseItemInCart" duration-ms="30562" started-at="2022-08-29T11:56:19Z" finished-at="2022-08-29T11:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseItemInCart -->
+        <test-method status="PASS" signature="Create_WarehouseOrder()[pri:40, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Create_WarehouseOrder" duration-ms="12461" started-at="2022-08-29T11:56:50Z" finished-at="2022-08-29T11:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_WarehouseOrder -->
+        <test-method status="PASS" signature="Verify_Warehouseorder()[pri:41, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_Warehouseorder" duration-ms="24807" started-at="2022-08-29T11:57:02Z" finished-at="2022-08-29T11:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Warehouseorder -->
+        <test-method status="PASS" signature="Verify_WarehouseModuleTap()[pri:42, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseModuleTap" duration-ms="18573" started-at="2022-08-29T11:57:27Z" finished-at="2022-08-29T11:57:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Warehouse Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseModuleTap -->
+        <test-method status="PASS" signature="Verify_WarehouseOrder()[pri:43, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseOrder" duration-ms="16129" started-at="2022-08-29T11:57:46Z" finished-at="2022-08-29T11:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseOrder -->
+        <test-method status="PASS" signature="Verify_CreatedWarehouseOrder()[pri:44, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_CreatedWarehouseOrder" duration-ms="8924" started-at="2022-08-29T11:58:02Z" finished-at="2022-08-29T11:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CreatedWarehouseOrder -->
+        <test-method status="PASS" signature="Verify_WarehouseOrderDetail()[pri:45, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_WarehouseOrderDetail" duration-ms="10869" started-at="2022-08-29T11:58:11Z" finished-at="2022-08-29T11:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WarehouseOrderDetail -->
+        <test-method status="PASS" signature="Select_WarehouseInventory()[pri:46, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Select_WarehouseInventory" duration-ms="9566" started-at="2022-08-29T11:58:21Z" finished-at="2022-08-29T11:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_WarehouseInventory -->
+        <test-method status="PASS" signature="IncreaseItemQuantity()[pri:47, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="IncreaseItemQuantity" duration-ms="37916" started-at="2022-08-29T11:58:31Z" finished-at="2022-08-29T11:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncreaseItemQuantity -->
+        <test-method status="PASS" signature="AddToScanout()[pri:48, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="AddToScanout" duration-ms="12484" started-at="2022-08-29T11:59:09Z" finished-at="2022-08-29T11:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToScanout -->
+        <test-method status="PASS" signature="VerifyPicked()[pri:49, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="VerifyPicked" duration-ms="4162" started-at="2022-08-29T11:59:21Z" finished-at="2022-08-29T11:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPicked -->
+        <test-method status="PASS" signature="VerifyDeleteAllItem()[pri:50, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="VerifyDeleteAllItem" duration-ms="33555" started-at="2022-08-29T11:59:26Z" finished-at="2022-08-29T11:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteAllItem -->
+        <test-method status="PASS" signature="VerifyWarehosueItemInScanout()[pri:51, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="VerifyWarehosueItemInScanout" duration-ms="7658" started-at="2022-08-29T11:59:59Z" finished-at="2022-08-29T12:00:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====ScanOut Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyWarehosueItemInScanout -->
+        <test-method status="PASS" signature="SelectWarehosueFacilityInScanout()[pri:52, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="SelectWarehosueFacilityInScanout" duration-ms="18668" started-at="2022-08-29T12:00:07Z" finished-at="2022-08-29T12:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectWarehosueFacilityInScanout -->
+        <test-method status="FAIL" signature="Verify_Complete_ScanOutForWarehouseItem()[pri:53, instance:Hybrent4_0_0rc1.Warehouse@28feb3fa]" name="Verify_Complete_ScanOutForWarehouseItem" duration-ms="67956" started-at="2022-08-29T12:00:25Z" finished-at="2022-08-29T12:01:33Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.widget.Button[2]
+ (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.widget.Button[2]
+ (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Warehouse.Verify_Complete_ScanOutForWarehouseItem(Warehouse.java:657)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Complete_ScanOutForWarehouseItem -->
+      </class> <!-- Hybrent4_0_0rc1.Warehouse -->
+      <class name="Hybrent4_0_0rc1.Shop">
+        <test-method status="PASS" signature="Verify_Shop()[pri:7, instance:Hybrent4_0_0rc1.Shop@4f933fd1]" name="Verify_Shop" duration-ms="19164" started-at="2022-08-29T11:25:30Z" finished-at="2022-08-29T11:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Shop -->
+        <test-method status="PASS" signature="Verify_ItemAddToCart()[pri:8, instance:Hybrent4_0_0rc1.Shop@4f933fd1]" name="Verify_ItemAddToCart" duration-ms="16235" started-at="2022-08-29T11:25:49Z" finished-at="2022-08-29T11:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ItemAddToCart -->
+      </class> <!-- Hybrent4_0_0rc1.Shop -->
+      <class name="Hybrent4_0_0rc1.Shipment">
+        <test-method status="PASS" signature="VerifyShipmentButtonTap()[pri:21, instance:Hybrent4_0_0rc1.Shipment@2a5ca609]" name="VerifyShipmentButtonTap" duration-ms="78381" started-at="2022-08-29T11:43:51Z" finished-at="2022-08-29T11:45:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Shipment Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyShipmentButtonTap -->
+      </class> <!-- Hybrent4_0_0rc1.Shipment -->
+      <class name="Hybrent4_0_0rc1.Templates">
+        <test-method status="PASS" signature="Verify_OrderTemplate()[pri:27, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_OrderTemplate" duration-ms="45738" started-at="2022-08-29T11:48:41Z" finished-at="2022-08-29T11:49:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Order Template Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_OrderTemplate -->
+        <test-method status="PASS" signature="Verify_OrderTemplateDetailPage()[pri:28, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_OrderTemplateDetailPage" duration-ms="9829" started-at="2022-08-29T11:49:27Z" finished-at="2022-08-29T11:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_OrderTemplateDetailPage -->
+        <test-method status="PASS" signature="Make_Order()[pri:29, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Make_Order" duration-ms="43501" started-at="2022-08-29T11:49:37Z" finished-at="2022-08-29T11:50:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Order Template has been Completed sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Make_Order -->
+        <test-method status="PASS" signature="Verify_ScanOutTemplate()[pri:30, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_ScanOutTemplate" duration-ms="80772" started-at="2022-08-29T11:50:20Z" finished-at="2022-08-29T11:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ScanOutTemplate -->
+        <test-method status="PASS" signature="Verify_ScanOutTemplateDetailPage()[pri:31, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_ScanOutTemplateDetailPage" duration-ms="6622" started-at="2022-08-29T11:51:41Z" finished-at="2022-08-29T11:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ScanOutTemplateDetailPage -->
+        <test-method status="FAIL" signature="Verify_ScanOut()[pri:32, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_ScanOut" duration-ms="125268" started-at="2022-08-29T11:51:48Z" finished-at="2022-08-29T11:53:53Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.widget.Button
+ (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.widget.Button
+ (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_ScanOut(Templates.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ScanOut -->
+        <test-method status="FAIL" signature="Verify_KitTemplate()[pri:33, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_KitTemplate" duration-ms="61374" started-at="2022-08-29T11:53:53Z" finished-at="2022-08-29T11:54:54Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="Kit"] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="Kit"] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_KitTemplate(Templates.java:290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_KitTemplate -->
+        <test-method status="PASS" signature="Verify_KitTemplateDetailPage()[pri:34, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Verify_KitTemplateDetailPage" duration-ms="24573" started-at="2022-08-29T11:54:54Z" finished-at="2022-08-29T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_KitTemplateDetailPage -->
+        <test-method status="PASS" signature="Make_Kit()[pri:35, instance:Hybrent4_0_0rc1.Templates@68be2bc2]" name="Make_Kit" duration-ms="15593" started-at="2022-08-29T11:55:19Z" finished-at="2022-08-29T11:55:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Kit Template has been Completed sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Make_Kit -->
+      </class> <!-- Hybrent4_0_0rc1.Templates -->
+      <class name="Hybrent4_0_0rc1.ScanOut">
+        <test-method status="PASS" signature="Verify_ScanOutButtonTap()[pri:39, instance:Hybrent4_0_0rc1.ScanOut@51565ec2]" name="Verify_ScanOutButtonTap" duration-ms="12044" started-at="2022-08-29T12:02:38Z" finished-at="2022-08-29T12:02:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====ScanOut Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_ScanOutButtonTap -->
+        <test-method status="PASS" signature="Verify_AddItemScanOut()[pri:40, instance:Hybrent4_0_0rc1.ScanOut@51565ec2]" name="Verify_AddItemScanOut" duration-ms="10203" started-at="2022-08-29T12:02:50Z" finished-at="2022-08-29T12:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddItemScanOut -->
+        <test-method status="PASS" signature="Verify_Complete_ScanOut()[pri:41, instance:Hybrent4_0_0rc1.ScanOut@51565ec2]" name="Verify_Complete_ScanOut" duration-ms="53712" started-at="2022-08-29T12:03:00Z" finished-at="2022-08-29T12:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Complete_ScanOut -->
+      </class> <!-- Hybrent4_0_0rc1.ScanOut -->
+      <class name="Hybrent4_0_0rc1.Claim">
+        <test-method status="PASS" signature="VerifyStartNewClaimButtonTap()[pri:57, instance:Hybrent4_0_0rc1.Claim@4cc0edeb]" name="VerifyStartNewClaimButtonTap" duration-ms="12410" started-at="2022-08-29T12:11:49Z" finished-at="2022-08-29T12:12:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Claims Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyStartNewClaimButtonTap -->
+        <test-method status="PASS" signature="VerifyStartNewClaimPage()[pri:58, instance:Hybrent4_0_0rc1.Claim@4cc0edeb]" name="VerifyStartNewClaimPage" duration-ms="13893" started-at="2022-08-29T12:12:02Z" finished-at="2022-08-29T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStartNewClaimPage -->
+        <test-method status="PASS" signature="VerifyAddItemInClaim()[pri:59, instance:Hybrent4_0_0rc1.Claim@4cc0edeb]" name="VerifyAddItemInClaim" duration-ms="22254" started-at="2022-08-29T12:12:16Z" finished-at="2022-08-29T12:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddItemInClaim -->
+        <test-method status="PASS" signature="VerifyClaimCreation()[pri:60, instance:Hybrent4_0_0rc1.Claim@4cc0edeb]" name="VerifyClaimCreation" duration-ms="8363" started-at="2022-08-29T12:12:38Z" finished-at="2022-08-29T12:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClaimCreation -->
+        <test-method status="PASS" signature="Verify_PatientSignature()[pri:61, instance:Hybrent4_0_0rc1.Claim@4cc0edeb]" name="Verify_PatientSignature" duration-ms="24989" started-at="2022-08-29T12:12:46Z" finished-at="2022-08-29T12:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_PatientSignature -->
+      </class> <!-- Hybrent4_0_0rc1.Claim -->
+      <class name="Hybrent4_0_0rc1.NewsAndEvents">
+        <test-method status="FAIL" signature="VerifyNewsAndEventsButtonTap()[pri:70, instance:Hybrent4_0_0rc1.NewsAndEvents@5c7fa833]" name="VerifyNewsAndEventsButtonTap" duration-ms="18356" started-at="2022-08-29T12:16:03Z" finished-at="2022-08-29T12:16:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [News & Events] but found [Cycle Count]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [News & Events] but found [Cycle Count]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Hybrent4_0_0rc1.NewsAndEvents.VerifyNewsAndEventsButtonTap(NewsAndEvents.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[=====News And Events Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyNewsAndEventsButtonTap -->
+        <test-method status="PASS" signature="VerifyNewsDescriptionScreen()[pri:71, instance:Hybrent4_0_0rc1.NewsAndEvents@5c7fa833]" name="VerifyNewsDescriptionScreen" duration-ms="9084" started-at="2022-08-29T12:16:22Z" finished-at="2022-08-29T12:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewsDescriptionScreen -->
+      </class> <!-- Hybrent4_0_0rc1.NewsAndEvents -->
+      <class name="Hybrent4_0_0rc1.ScanIn">
+        <test-method status="PASS" signature="Verify_ScanInButtonTap()[pri:36, instance:Hybrent4_0_0rc1.ScanIn@675d3402]" name="Verify_ScanInButtonTap" duration-ms="17419" started-at="2022-08-29T12:01:33Z" finished-at="2022-08-29T12:01:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====ScanIn Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_ScanInButtonTap -->
+        <test-method status="PASS" signature="VerifyAddItem_ScanIn()[pri:37, instance:Hybrent4_0_0rc1.ScanIn@675d3402]" name="VerifyAddItem_ScanIn" duration-ms="23285" started-at="2022-08-29T12:01:51Z" finished-at="2022-08-29T12:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddItem_ScanIn -->
+        <test-method status="PASS" signature="Verify_Complete_ScanIn()[pri:38, instance:Hybrent4_0_0rc1.ScanIn@675d3402]" name="Verify_Complete_ScanIn" duration-ms="23486" started-at="2022-08-29T12:02:14Z" finished-at="2022-08-29T12:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Complete_ScanIn -->
+      </class> <!-- Hybrent4_0_0rc1.ScanIn -->
+      <class name="Hybrent4_0_0rc1.Settings">
+        <test-method status="PASS" signature="VerifySettingsButtonTap()[pri:74, instance:Hybrent4_0_0rc1.Settings@724af044]" name="VerifySettingsButtonTap" duration-ms="11378" started-at="2022-08-29T12:17:43Z" finished-at="2022-08-29T12:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySettingsButtonTap -->
+        <test-method status="PASS" signature="VerifySettingsScreen()[pri:75, instance:Hybrent4_0_0rc1.Settings@724af044]" name="VerifySettingsScreen" duration-ms="30796" started-at="2022-08-29T12:17:55Z" finished-at="2022-08-29T12:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySettingsScreen -->
+      </class> <!-- Hybrent4_0_0rc1.Settings -->
+      <class name="Hybrent4_0_0rc1.Orders">
+        <test-method status="PASS" signature="Verify_Order()[pri:12, instance:Hybrent4_0_0rc1.Orders@1753acfe]" name="Verify_Order" duration-ms="147487" started-at="2022-08-29T11:29:37Z" finished-at="2022-08-29T11:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Order -->
+      </class> <!-- Hybrent4_0_0rc1.Orders -->
+      <class name="Hybrent4_0_0rc1.Logout">
+        <test-method status="PASS" signature="VerifyLogoutButtonTap()[pri:76, instance:Hybrent4_0_0rc1.Logout@4678c730]" name="VerifyLogoutButtonTap" duration-ms="44799" started-at="2022-08-29T12:18:25Z" finished-at="2022-08-29T12:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogoutButtonTap -->
+        <test-method status="PASS" signature="VerifyLogout()[pri:77, instance:Hybrent4_0_0rc1.Logout@4678c730]" name="VerifyLogout" duration-ms="211" started-at="2022-08-29T12:19:10Z" finished-at="2022-08-29T12:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogout -->
+      </class> <!-- Hybrent4_0_0rc1.Logout -->
+      <class name="Hybrent4_0_0rc1.Receive_Orders">
+        <test-method status="PASS" signature="VerifyTap_ReceiveOrder()[pri:13, instance:Hybrent4_0_0rc1.Receive_Orders@7c16905e]" name="VerifyTap_ReceiveOrder" duration-ms="41663" started-at="2022-08-29T11:32:05Z" finished-at="2022-08-29T11:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTap_ReceiveOrder -->
+        <test-method status="PASS" signature="VerifySearch_Order()[pri:14, instance:Hybrent4_0_0rc1.Receive_Orders@7c16905e]" name="VerifySearch_Order" duration-ms="5609" started-at="2022-08-29T11:32:47Z" finished-at="2022-08-29T11:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch_Order -->
+        <test-method status="PASS" signature="Verify_ReceiveOrder()[pri:15, instance:Hybrent4_0_0rc1.Receive_Orders@7c16905e]" name="Verify_ReceiveOrder" duration-ms="29206" started-at="2022-08-29T11:32:52Z" finished-at="2022-08-29T11:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ReceiveOrder -->
+      </class> <!-- Hybrent4_0_0rc1.Receive_Orders -->
+      <class name="Hybrent4_0_0rc1.Login">
+        <test-method status="PASS" signature="setUp_Device()[pri:0, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="setUp_Device" is-config="true" duration-ms="13749" started-at="2022-08-29T11:24:07Z" finished-at="2022-08-29T11:24:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Session has been Started Sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp_Device -->
+        <test-method status="PASS" signature="VerifyWithBlankSiteNameEnter()[pri:1, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="VerifyWithBlankSiteNameEnter" duration-ms="14185" started-at="2022-08-29T11:24:21Z" finished-at="2022-08-29T11:24:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Login Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyWithBlankSiteNameEnter -->
+        <test-method status="PASS" signature="VerifyWithInvalidSiteNameEnter()[pri:2, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="VerifyWithInvalidSiteNameEnter" duration-ms="7981" started-at="2022-08-29T11:24:35Z" finished-at="2022-08-29T11:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWithInvalidSiteNameEnter -->
+        <test-method status="PASS" signature="VerifyWithValidSiteNameEnter()[pri:3, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="VerifyWithValidSiteNameEnter" duration-ms="8037" started-at="2022-08-29T11:24:43Z" finished-at="2022-08-29T11:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWithValidSiteNameEnter -->
+        <test-method status="PASS" signature="LoginWithBlankCrednetials()[pri:4, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="LoginWithBlankCrednetials" duration-ms="10957" started-at="2022-08-29T11:24:51Z" finished-at="2022-08-29T11:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBlankCrednetials -->
+        <test-method status="PASS" signature="LoginWithInvalidCrednetials()[pri:5, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="LoginWithInvalidCrednetials" duration-ms="10472" started-at="2022-08-29T11:25:02Z" finished-at="2022-08-29T11:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCrednetials -->
+        <test-method status="PASS" signature="LoginWithValidCrednetials()[pri:6, instance:Hybrent4_0_0rc1.Login@d2cc05a]" test-instance-name="" name="LoginWithValidCrednetials" duration-ms="17068" started-at="2022-08-29T11:25:12Z" finished-at="2022-08-29T11:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCrednetials -->
+      </class> <!-- Hybrent4_0_0rc1.Login -->
+      <class name="Hybrent4_0_0rc1.Charge_Resident">
+        <test-method status="PASS" signature="VerifyChargeResidentButtonTap()[pri:42, instance:Hybrent4_0_0rc1.Charge_Resident@482f8f11]" name="VerifyChargeResidentButtonTap" duration-ms="25166" started-at="2022-08-29T12:03:54Z" finished-at="2022-08-29T12:04:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Charge Resident Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyChargeResidentButtonTap -->
+        <test-method status="FAIL" signature="VerifyAddItemChargeResident()[pri:43, instance:Hybrent4_0_0rc1.Charge_Resident@482f8f11]" name="VerifyAddItemChargeResident" duration-ms="61640" started-at="2022-08-29T12:04:19Z" finished-at="2022-08-29T12:05:20Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View
+ (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View
+ (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyAddItemChargeResident(Charge_Resident.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddItemChargeResident -->
+        <test-method status="FAIL" signature="VerifyCompleteChargeResident()[pri:44, instance:Hybrent4_0_0rc1.Charge_Resident@482f8f11]" name="VerifyCompleteChargeResident" duration-ms="61295" started-at="2022-08-29T12:05:20Z" finished-at="2022-08-29T12:06:22Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.TextView[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.TextView[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'HEMANT', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyCompleteChargeResident(Charge_Resident.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompleteChargeResident -->
+      </class> <!-- Hybrent4_0_0rc1.Charge_Resident -->
+      <class name="Hybrent4_0_0rc1.Inventory_Receive">
+        <test-method status="PASS" signature="VerifyInventoryRecieveButtonTap()[pri:48, instance:Hybrent4_0_0rc1.Inventory_Receive@1b604f19]" name="VerifyInventoryRecieveButtonTap" duration-ms="45436" started-at="2022-08-29T12:07:13Z" finished-at="2022-08-29T12:07:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Inventory Receive Started sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyInventoryRecieveButtonTap -->
+        <test-method status="PASS" signature="VerifyCompleteInventoryRecieve()[pri:49, instance:Hybrent4_0_0rc1.Inventory_Receive@1b604f19]" name="VerifyCompleteInventoryRecieve" duration-ms="13246" started-at="2022-08-29T12:07:58Z" finished-at="2022-08-29T12:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompleteInventoryRecieve -->
+        <test-method status="PASS" signature="CreateVendorSignature()[pri:50, instance:Hybrent4_0_0rc1.Inventory_Receive@1b604f19]" name="CreateVendorSignature" duration-ms="65945" started-at="2022-08-29T12:08:11Z" finished-at="2022-08-29T12:09:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Inventory Transfer has been Completed sucessfully=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateVendorSignature -->
+      </class> <!-- Hybrent4_0_0rc1.Inventory_Receive -->
+    </test> <!-- Hybrent Mobile Automation -->
+  </suite> <!-- Hybrent -->
+</testng-results>

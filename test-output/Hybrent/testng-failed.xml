@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hybrent]">
+  <listeners>
+    <listener class-name="Hybrent4_0_0rc1.CustomReporter"/>
+  </listeners>
+  <test name="Hybrent Mobile Automation">
+    <classes>
+      <class name="Hybrent4_0_0rc1.Login"/>
+      <class name="Hybrent4_0_0rc1.Shop"/>
+      <class name="Hybrent4_0_0rc1.Cart"/>
+      <class name="Hybrent4_0_0rc1.Orders"/>
+      <class name="Hybrent4_0_0rc1.Receive_Orders"/>
+      <class name="Hybrent4_0_0rc1.BillAndReplace"/>
+      <class name="Hybrent4_0_0rc1.Shipment"/>
+      <class name="Hybrent4_0_0rc1.Invoice"/>
+      <class name="Hybrent4_0_0rc1.Templates"/>
+      <class name="Hybrent4_0_0rc1.Warehouse"/>
+      <class name="Hybrent4_0_0rc1.ScanIn"/>
+      <class name="Hybrent4_0_0rc1.ScanOut"/>
+      <class name="Hybrent4_0_0rc1.Charge_Resident"/>
+      <class name="Hybrent4_0_0rc1.Inventory_Transfer"/>
+      <class name="Hybrent4_0_0rc1.Inventory_Receive"/>
+      <class name="Hybrent4_0_0rc1.BillOnly"/>
+      <class name="Hybrent4_0_0rc1.Claim"/>
+      <class name="Hybrent4_0_0rc1.Cycle_Count"/>
+      <class name="Hybrent4_0_0rc1.NewsAndEvents"/>
+      <class name="Hybrent4_0_0rc1.Profile"/>
+      <class name="Hybrent4_0_0rc1.Settings"/>
+      <class name="Hybrent4_0_0rc1.Logout"/>
+    </classes>
+  </test> <!-- Hybrent Mobile Automation -->
+  <test name="Hybrent Mobile Automation(failed)">
+    <classes>
+      <class name="Hybrent4_0_0rc1.Login">
+        <methods>
+          <include name="setUp_Device"/>
+        </methods>
+      </class> <!-- Hybrent4_0_0rc1.Login -->
+      <class name="Hybrent4_0_0rc1.Templates">
+        <methods>
+          <include name="Verify_KitTemplate"/>
+          <include name="Verify_ScanOut"/>
+        </methods>
+      </class> <!-- Hybrent4_0_0rc1.Templates -->
+      <class name="Hybrent4_0_0rc1.Charge_Resident">
+        <methods>
+          <include name="VerifyAddItemChargeResident"/>
+          <include name="VerifyCompleteChargeResident"/>
+        </methods>
+      </class> <!-- Hybrent4_0_0rc1.Charge_Resident -->
+      <class name="Hybrent4_0_0rc1.NewsAndEvents">
+        <methods>
+          <include name="VerifyNewsAndEventsButtonTap"/>
+        </methods>
+      </class> <!-- Hybrent4_0_0rc1.NewsAndEvents -->
+      <class name="Hybrent4_0_0rc1.Warehouse">
+        <methods>
+          <include name="Verify_Complete_ScanOutForWarehouseItem"/>
+        </methods>
+      </class> <!-- Hybrent4_0_0rc1.Warehouse -->
+    </classes>
+  </test> <!-- Hybrent Mobile Automation(failed) -->
+</suite> <!-- Failed suite [Hybrent] -->

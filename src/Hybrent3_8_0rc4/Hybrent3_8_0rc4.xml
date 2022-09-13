@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hybrent" parallel="false">
+  <listeners>
+	<listener class-name="Hybrent3_8_0rc4.CustomReporter"/>
+</listeners>
+ <test name="Mobile Automation">
+ <classes>
+     <class name="Hybrent3_8_0rc4.CustomReporter"/>
+      <class name="Hybrent3_8_0rc4.Login"/>
+      <class name="Hybrent3_8_0rc4.Shop"/>
+      <class name="Hybrent3_8_0rc4.Cart"/>
+      <class name="Hybrent3_8_0rc4.Orders"/>
+      <class name="Hybrent3_8_0rc4.Receive_Orders"/>
+      <class name="Hybrent3_8_0rc4.BillAndReplace"/>
+      <class name="Hybrent3_8_0rc4.Shipment"/>
+      <class name="Hybrent3_8_0rc4.Invoice"/>
+      <class name="Hybrent3_8_0rc4.Templates"/>
+      <class name="Hybrent3_8_0rc4.ScanIn"/>
+      <class name="Hybrent3_8_0rc4.ScanOut"/>
+      <class name="Hybrent3_8_0rc4.Charge_Resident"/>
+      <class name="Hybrent3_8_0rc4.Inventory_Transfer"/>
+      <class name="Hybrent3_8_0rc4.Inventory_Receive"/>
+      <class name="Hybrent3_8_0rc4.BillOnly"/>
+      <class name="Hybrent3_8_0rc4.Claim"/>
+      <class name="Hybrent3_8_0rc4.Cycle_Count"/>
+      <class name="Hybrent3_8_0rc4.NewsAndEvents"/>
+      <class name="Hybrent3_8_0rc4.Profile"/>
+      <class name="Hybrent3_8_0rc4.Settings"/>
+      <class name="Hybrent3_8_0rc4.Logout"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

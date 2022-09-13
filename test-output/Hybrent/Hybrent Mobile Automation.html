@@ -1,0 +1,955 @@
+<html>
+<head>
+<title>TestNG:  Hybrent Mobile Automation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Hybrent Mobile Automation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>87/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 29 11:24:07 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>3303 seconds (3303258 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Charge_Resident.VerifyAddItemChargeResident()'><b>VerifyAddItemChargeResident</b><br>Test class: Hybrent4_0_0rc1.Charge_Resident</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View
+ (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyAddItemChargeResident(Charge_Resident.java:93)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace973123933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace973123933'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View
+ (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyAddItemChargeResident(Charge_Resident.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>61</td>
+<td>Hybrent4_0_0rc1.Charge_Resident@482f8f11</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Charge_Resident.VerifyCompleteChargeResident()'><b>VerifyCompleteChargeResident</b><br>Test class: Hybrent4_0_0rc1.Charge_Resident</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.TextView[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyCompleteChargeResident(Charge_Resident.java:125)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2137205195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2137205195'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.TextView[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Charge_Resident.VerifyCompleteChargeResident(Charge_Resident.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>61</td>
+<td>Hybrent4_0_0rc1.Charge_Resident@482f8f11</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.NewsAndEvents.VerifyNewsAndEventsButtonTap()'><b>VerifyNewsAndEventsButtonTap</b><br>Test class: Hybrent4_0_0rc1.NewsAndEvents<br/>
+<a href="#Output-532732340" onClick='toggleBox("Output-532732340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532732340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532732340">
+=====News And Events Started=====<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [News &amp; Events] but found [Cycle Count]
+	at Hybrent4_0_0rc1.NewsAndEvents.VerifyNewsAndEventsButtonTap(NewsAndEvents.java:67)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace532732340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace532732340'><pre>java.lang.AssertionError: expected [News &amp; Events] but found [Cycle Count]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Hybrent4_0_0rc1.NewsAndEvents.VerifyNewsAndEventsButtonTap(NewsAndEvents.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>18</td>
+<td>Hybrent4_0_0rc1.NewsAndEvents@5c7fa833</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_Complete_ScanOutForWarehouseItem()'><b>Verify_Complete_ScanOutForWarehouseItem</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.widget.Button[2]
+ (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Warehouse.Verify_Complete_ScanOutForWarehouseItem(Warehouse.java:657)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace628599133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace628599133'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.widget.Button[2]
+ (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Warehouse.Verify_Complete_ScanOutForWarehouseItem(Warehouse.java:657)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>67</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_KitTemplate()'><b>Verify_KitTemplate</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc=&quot;Kit&quot;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_KitTemplate(Templates.java:290)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace309271464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace309271464'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc=&quot;Kit&quot;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_KitTemplate(Templates.java:290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>61</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_ScanOut()'><b>Verify_ScanOut</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.widget.Button
+ (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_ScanOut(Templates.java:225)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace178575564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace178575564'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.widget.Button
+ (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;HEMANT&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.hybrent.hybrent.MainAct..., appium:appPackage: com.hybrent.hybrent, appium:databaseEnabled: false, appium:desired: {appActivity: com.hybrent.hybrent.MainAct..., appPackage: com.hybrent.hybrent, deviceName: ZY2242XGM3, platformName: android, skipUnlock: true, version: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: motorola, appium:deviceModel: Moto G (5) Plus, appium:deviceName: ZY2242XGM3, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: ZY2242XGM3, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:skipUnlock: true, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:version: 8.1.0, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 9498e368-9a41-40d7-9b29-34da0c3dca37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Hybrent4_0_0rc1.Templates.Verify_ScanOut(Templates.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>125</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.AddToScanout()'><b>AddToScanout</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>12</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.CompleteCycleCount()'><b>CompleteCycleCount</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count<br/>
+<a href="#Output-1735770321" onClick='toggleBox("Output-1735770321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1735770321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1735770321">
+=====Cycle Count Completed Successfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Receive.CreateVendorSignature()'><b>CreateVendorSignature</b><br>Test class: Hybrent4_0_0rc1.Inventory_Receive<br/>
+<a href="#Output-1462350864" onClick='toggleBox("Output-1462350864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1462350864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1462350864">
+=====Inventory Transfer has been Completed sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>Hybrent4_0_0rc1.Inventory_Receive@1b604f19</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cart.Create_Order()'><b>Create_Order</b><br>Test class: Hybrent4_0_0rc1.Cart ()</td>
+<td></td>
+<td>46</td>
+<td>Hybrent4_0_0rc1.Cart@548a9f61</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Create_WarehouseOrder()'><b>Create_WarehouseOrder</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>12</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.GenerateOrderBillOnly()'><b>GenerateOrderBillOnly</b><br>Test class: Hybrent4_0_0rc1.BillOnly</td>
+<td></td>
+<td>27</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillAndReplace.Generate_BillAndReplace_PO()'><b>Generate_BillAndReplace_PO</b><br>Test class: Hybrent4_0_0rc1.BillAndReplace</td>
+<td></td>
+<td>77</td>
+<td>Hybrent4_0_0rc1.BillAndReplace@2a2d45ba</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.HospitalSignature()'><b>HospitalSignature</b><br>Test class: Hybrent4_0_0rc1.BillOnly</td>
+<td></td>
+<td>27</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.IncreaseItemQuantity()'><b>IncreaseItemQuantity</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>37</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.LoginWithBlankCrednetials()'><b>LoginWithBlankCrednetials</b><br>Test class: Hybrent4_0_0rc1.Login ()</td>
+<td></td>
+<td>10</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.LoginWithInvalidCrednetials()'><b>LoginWithInvalidCrednetials</b><br>Test class: Hybrent4_0_0rc1.Login ()</td>
+<td></td>
+<td>10</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.LoginWithValidCrednetials()'><b>LoginWithValidCrednetials</b><br>Test class: Hybrent4_0_0rc1.Login ()</td>
+<td></td>
+<td>17</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Make_Kit()'><b>Make_Kit</b><br>Test class: Hybrent4_0_0rc1.Templates<br/>
+<a href="#Output-1037346554" onClick='toggleBox("Output-1037346554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1037346554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037346554">
+=====Kit Template has been Completed sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Make_Order()'><b>Make_Order</b><br>Test class: Hybrent4_0_0rc1.Templates<br/>
+<a href="#Output-1001351478" onClick='toggleBox("Output-1001351478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1001351478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1001351478">
+=====Order Template has been Completed sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillAndReplace.Recieve_BillAndReplace_PO()'><b>Recieve_BillAndReplace_PO</b><br>Test class: Hybrent4_0_0rc1.BillAndReplace</td>
+<td></td>
+<td>338</td>
+<td>Hybrent4_0_0rc1.BillAndReplace@2a2d45ba</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.SelectWarehosueFacilityInScanout()'><b>SelectWarehosueFacilityInScanout</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>18</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Select_WarehouseInventory()'><b>Select_WarehouseInventory</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>9</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.VendorSignature()'><b>VendorSignature</b><br>Test class: Hybrent4_0_0rc1.BillOnly</td>
+<td></td>
+<td>12</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.VerifyAddCases()'><b>VerifyAddCases</b><br>Test class: Hybrent4_0_0rc1.BillOnly</td>
+<td></td>
+<td>32</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Claim.VerifyAddItemInClaim()'><b>VerifyAddItemInClaim</b><br>Test class: Hybrent4_0_0rc1.Claim</td>
+<td></td>
+<td>22</td>
+<td>Hybrent4_0_0rc1.Claim@4cc0edeb</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Transfer.VerifyAddItemTransfer()'><b>VerifyAddItemTransfer</b><br>Test class: Hybrent4_0_0rc1.Inventory_Transfer</td>
+<td></td>
+<td>28</td>
+<td>Hybrent4_0_0rc1.Inventory_Transfer@1593948d</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillAndReplace.VerifyAddItem_BillAndReplace()'><b>VerifyAddItem_BillAndReplace</b><br>Test class: Hybrent4_0_0rc1.BillAndReplace</td>
+<td></td>
+<td>14</td>
+<td>Hybrent4_0_0rc1.BillAndReplace@2a2d45ba</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanIn.VerifyAddItem_ScanIn()'><b>VerifyAddItem_ScanIn</b><br>Test class: Hybrent4_0_0rc1.ScanIn</td>
+<td></td>
+<td>23</td>
+<td>Hybrent4_0_0rc1.ScanIn@675d3402</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.VerifyAddNewItemBillOnly()'><b>VerifyAddNewItemBillOnly</b><br>Test class: Hybrent4_0_0rc1.BillOnly</td>
+<td></td>
+<td>32</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillOnly.VerifyBillOnlyButtonTap()'><b>VerifyBillOnlyButtonTap</b><br>Test class: Hybrent4_0_0rc1.BillOnly<br/>
+<a href="#Output-1075314220" onClick='toggleBox("Output-1075314220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1075314220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1075314220">
+=====BillOnly Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>Hybrent4_0_0rc1.BillOnly@7823a2f9</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Charge_Resident.VerifyChargeResidentButtonTap()'><b>VerifyChargeResidentButtonTap</b><br>Test class: Hybrent4_0_0rc1.Charge_Resident<br/>
+<a href="#Output-1307024253" onClick='toggleBox("Output-1307024253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307024253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307024253">
+=====Charge Resident Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>Hybrent4_0_0rc1.Charge_Resident@482f8f11</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Claim.VerifyClaimCreation()'><b>VerifyClaimCreation</b><br>Test class: Hybrent4_0_0rc1.Claim</td>
+<td></td>
+<td>8</td>
+<td>Hybrent4_0_0rc1.Claim@4cc0edeb</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Receive.VerifyCompleteInventoryRecieve()'><b>VerifyCompleteInventoryRecieve</b><br>Test class: Hybrent4_0_0rc1.Inventory_Receive</td>
+<td></td>
+<td>13</td>
+<td>Hybrent4_0_0rc1.Inventory_Receive@1b604f19</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Transfer.VerifyCompleteInventoryTransfer()'><b>VerifyCompleteInventoryTransfer</b><br>Test class: Hybrent4_0_0rc1.Inventory_Transfer</td>
+<td></td>
+<td>3</td>
+<td>Hybrent4_0_0rc1.Inventory_Transfer@1593948d</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyCountedItem()'><b>VerifyCountedItem</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>5</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyCycleCountButtonTap()'><b>VerifyCycleCountButtonTap</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count<br/>
+<a href="#Output-632104437" onClick='toggleBox("Output-632104437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-632104437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-632104437">
+=====Cycle count Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyCycleCountPage()'><b>VerifyCycleCountPage</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>31</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.VerifyDeleteAllItem()'><b>VerifyDeleteAllItem</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>33</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyIntiateCycleCount()'><b>VerifyIntiateCycleCount</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>31</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Receive.VerifyInventoryRecieveButtonTap()'><b>VerifyInventoryRecieveButtonTap</b><br>Test class: Hybrent4_0_0rc1.Inventory_Receive<br/>
+<a href="#Output-450476243" onClick='toggleBox("Output-450476243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-450476243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-450476243">
+=====Inventory Receive Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>Hybrent4_0_0rc1.Inventory_Receive@1b604f19</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Inventory_Transfer.VerifyInventoryTransferButtonTap()'><b>VerifyInventoryTransferButtonTap</b><br>Test class: Hybrent4_0_0rc1.Inventory_Transfer<br/>
+<a href="#Output-988637661" onClick='toggleBox("Output-988637661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-988637661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-988637661">
+=====Inventory Transfer Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>Hybrent4_0_0rc1.Inventory_Transfer@1593948d</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Invoice.VerifyInvoiceButtonTap()'><b>VerifyInvoiceButtonTap</b><br>Test class: Hybrent4_0_0rc1.Invoice<br/>
+<a href="#Output-376601041" onClick='toggleBox("Output-376601041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-376601041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-376601041">
+=====Invoice processed Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>132</td>
+<td>Hybrent4_0_0rc1.Invoice@20e2cbe0</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Invoice.VerifyInvoiceDeatilPage()'><b>VerifyInvoiceDeatilPage</b><br>Test class: Hybrent4_0_0rc1.Invoice</td>
+<td></td>
+<td>5</td>
+<td>Hybrent4_0_0rc1.Invoice@20e2cbe0</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Logout.VerifyLogout()'><b>VerifyLogout</b><br>Test class: Hybrent4_0_0rc1.Logout</td>
+<td></td>
+<td>0</td>
+<td>Hybrent4_0_0rc1.Logout@4678c730</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Logout.VerifyLogoutButtonTap()'><b>VerifyLogoutButtonTap</b><br>Test class: Hybrent4_0_0rc1.Logout</td>
+<td></td>
+<td>44</td>
+<td>Hybrent4_0_0rc1.Logout@4678c730</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyNewItem()'><b>VerifyNewItem</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>20</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.NewsAndEvents.VerifyNewsDescriptionScreen()'><b>VerifyNewsDescriptionScreen</b><br>Test class: Hybrent4_0_0rc1.NewsAndEvents</td>
+<td></td>
+<td>9</td>
+<td>Hybrent4_0_0rc1.NewsAndEvents@5c7fa833</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.VerifyNotCountedItem()'><b>VerifyNotCountedItem</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>13</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.VerifyPicked()'><b>VerifyPicked</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>4</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Invoice.VerifyProcessedInvoice()'><b>VerifyProcessedInvoice</b><br>Test class: Hybrent4_0_0rc1.Invoice<br/>
+<a href="#Output-1237907176" onClick='toggleBox("Output-1237907176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237907176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237907176">
+=====Invoice processed has been Completed sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>Hybrent4_0_0rc1.Invoice@20e2cbe0</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Profile.VerifyProfileButtonTap()'><b>VerifyProfileButtonTap</b><br>Test class: Hybrent4_0_0rc1.Profile</td>
+<td></td>
+<td>41</td>
+<td>Hybrent4_0_0rc1.Profile@39aeed2f</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Profile.VerifyProfileScreen()'><b>VerifyProfileScreen</b><br>Test class: Hybrent4_0_0rc1.Profile</td>
+<td></td>
+<td>30</td>
+<td>Hybrent4_0_0rc1.Profile@39aeed2f</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Receive_Orders.VerifySearch_Order()'><b>VerifySearch_Order</b><br>Test class: Hybrent4_0_0rc1.Receive_Orders</td>
+<td></td>
+<td>5</td>
+<td>Hybrent4_0_0rc1.Receive_Orders@7c16905e</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Settings.VerifySettingsButtonTap()'><b>VerifySettingsButtonTap</b><br>Test class: Hybrent4_0_0rc1.Settings</td>
+<td></td>
+<td>11</td>
+<td>Hybrent4_0_0rc1.Settings@724af044</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Settings.VerifySettingsScreen()'><b>VerifySettingsScreen</b><br>Test class: Hybrent4_0_0rc1.Settings</td>
+<td></td>
+<td>30</td>
+<td>Hybrent4_0_0rc1.Settings@724af044</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Shipment.VerifyShipmentButtonTap()'><b>VerifyShipmentButtonTap</b><br>Test class: Hybrent4_0_0rc1.Shipment<br/>
+<a href="#Output-105393903" onClick='toggleBox("Output-105393903", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-105393903" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105393903">
+=====Shipment Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>Hybrent4_0_0rc1.Shipment@2a5ca609</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Claim.VerifyStartNewClaimButtonTap()'><b>VerifyStartNewClaimButtonTap</b><br>Test class: Hybrent4_0_0rc1.Claim<br/>
+<a href="#Output-1343407473" onClick='toggleBox("Output-1343407473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1343407473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343407473">
+=====Claims Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>Hybrent4_0_0rc1.Claim@4cc0edeb</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Claim.VerifyStartNewClaimPage()'><b>VerifyStartNewClaimPage</b><br>Test class: Hybrent4_0_0rc1.Claim</td>
+<td></td>
+<td>13</td>
+<td>Hybrent4_0_0rc1.Claim@4cc0edeb</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillAndReplace.VerifyTap_BillAndReplace()'><b>VerifyTap_BillAndReplace</b><br>Test class: Hybrent4_0_0rc1.BillAndReplace</td>
+<td></td>
+<td>54</td>
+<td>Hybrent4_0_0rc1.BillAndReplace@2a2d45ba</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Receive_Orders.VerifyTap_ReceiveOrder()'><b>VerifyTap_ReceiveOrder</b><br>Test class: Hybrent4_0_0rc1.Receive_Orders</td>
+<td></td>
+<td>41</td>
+<td>Hybrent4_0_0rc1.Receive_Orders@7c16905e</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.VerifyWarehosueItemInScanout()'><b>VerifyWarehosueItemInScanout</b><br>Test class: Hybrent4_0_0rc1.Warehouse<br/>
+<a href="#Output-1271570837" onClick='toggleBox("Output-1271570837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1271570837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1271570837">
+=====ScanOut Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.VerifyWithBlankSiteNameEnter()'><b>VerifyWithBlankSiteNameEnter</b><br>Test class: Hybrent4_0_0rc1.Login ()<br/>
+<a href="#Output-1198197478" onClick='toggleBox("Output-1198197478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1198197478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1198197478">
+=====Login Session Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.VerifyWithInvalidSiteNameEnter()'><b>VerifyWithInvalidSiteNameEnter</b><br>Test class: Hybrent4_0_0rc1.Login ()</td>
+<td></td>
+<td>7</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Login.VerifyWithValidSiteNameEnter()'><b>VerifyWithValidSiteNameEnter</b><br>Test class: Hybrent4_0_0rc1.Login ()</td>
+<td></td>
+<td>8</td>
+<td>Hybrent4_0_0rc1.Login@d2cc05a</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cart.Verify_ADDItemsFromCart()'><b>Verify_ADDItemsFromCart</b><br>Test class: Hybrent4_0_0rc1.Cart ()</td>
+<td></td>
+<td>41</td>
+<td>Hybrent4_0_0rc1.Cart@548a9f61</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanOut.Verify_AddItemScanOut()'><b>Verify_AddItemScanOut</b><br>Test class: Hybrent4_0_0rc1.ScanOut</td>
+<td></td>
+<td>10</td>
+<td>Hybrent4_0_0rc1.ScanOut@51565ec2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.BillAndReplace.Verify_BillAndReplace_PO()'><b>Verify_BillAndReplace_PO</b><br>Test class: Hybrent4_0_0rc1.BillAndReplace</td>
+<td></td>
+<td>144</td>
+<td>Hybrent4_0_0rc1.BillAndReplace@2a2d45ba</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cart.Verify_Cart()'><b>Verify_Cart</b><br>Test class: Hybrent4_0_0rc1.Cart ()</td>
+<td></td>
+<td>123</td>
+<td>Hybrent4_0_0rc1.Cart@548a9f61</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanIn.Verify_Complete_ScanIn()'><b>Verify_Complete_ScanIn</b><br>Test class: Hybrent4_0_0rc1.ScanIn</td>
+<td></td>
+<td>23</td>
+<td>Hybrent4_0_0rc1.ScanIn@675d3402</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanOut.Verify_Complete_ScanOut()'><b>Verify_Complete_ScanOut</b><br>Test class: Hybrent4_0_0rc1.ScanOut</td>
+<td></td>
+<td>53</td>
+<td>Hybrent4_0_0rc1.ScanOut@51565ec2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_CreatedWarehouseOrder()'><b>Verify_CreatedWarehouseOrder</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>8</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Cycle_Count.Verify_CycleCount()'><b>Verify_CycleCount</b><br>Test class: Hybrent4_0_0rc1.Cycle_Count</td>
+<td></td>
+<td>4</td>
+<td>Hybrent4_0_0rc1.Cycle_Count@457e2f02</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Shop.Verify_ItemAddToCart()'><b>Verify_ItemAddToCart</b><br>Test class: Hybrent4_0_0rc1.Shop</td>
+<td></td>
+<td>16</td>
+<td>Hybrent4_0_0rc1.Shop@4f933fd1</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_KitTemplateDetailPage()'><b>Verify_KitTemplateDetailPage</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td></td>
+<td>24</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Orders.Verify_Order()'><b>Verify_Order</b><br>Test class: Hybrent4_0_0rc1.Orders</td>
+<td></td>
+<td>147</td>
+<td>Hybrent4_0_0rc1.Orders@1753acfe</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_OrderTemplate()'><b>Verify_OrderTemplate</b><br>Test class: Hybrent4_0_0rc1.Templates<br/>
+<a href="#Output-1529303412" onClick='toggleBox("Output-1529303412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1529303412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1529303412">
+=====Order Template Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_OrderTemplateDetailPage()'><b>Verify_OrderTemplateDetailPage</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td></td>
+<td>9</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Claim.Verify_PatientSignature()'><b>Verify_PatientSignature</b><br>Test class: Hybrent4_0_0rc1.Claim</td>
+<td></td>
+<td>24</td>
+<td>Hybrent4_0_0rc1.Claim@4cc0edeb</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Receive_Orders.Verify_ReceiveOrder()'><b>Verify_ReceiveOrder</b><br>Test class: Hybrent4_0_0rc1.Receive_Orders</td>
+<td></td>
+<td>29</td>
+<td>Hybrent4_0_0rc1.Receive_Orders@7c16905e</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanIn.Verify_ScanInButtonTap()'><b>Verify_ScanInButtonTap</b><br>Test class: Hybrent4_0_0rc1.ScanIn<br/>
+<a href="#Output-25916650" onClick='toggleBox("Output-25916650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25916650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25916650">
+=====ScanIn Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>Hybrent4_0_0rc1.ScanIn@675d3402</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.ScanOut.Verify_ScanOutButtonTap()'><b>Verify_ScanOutButtonTap</b><br>Test class: Hybrent4_0_0rc1.ScanOut<br/>
+<a href="#Output-1291832417" onClick='toggleBox("Output-1291832417", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1291832417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1291832417">
+=====ScanOut Started=====<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>Hybrent4_0_0rc1.ScanOut@51565ec2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_ScanOutTemplate()'><b>Verify_ScanOutTemplate</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td></td>
+<td>80</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Templates.Verify_ScanOutTemplateDetailPage()'><b>Verify_ScanOutTemplateDetailPage</b><br>Test class: Hybrent4_0_0rc1.Templates</td>
+<td></td>
+<td>6</td>
+<td>Hybrent4_0_0rc1.Templates@68be2bc2</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Shop.Verify_Shop()'><b>Verify_Shop</b><br>Test class: Hybrent4_0_0rc1.Shop</td>
+<td></td>
+<td>19</td>
+<td>Hybrent4_0_0rc1.Shop@4f933fd1</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseItemInCart()'><b>Verify_WarehouseItemInCart</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>30</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseModuleTap()'><b>Verify_WarehouseModuleTap</b><br>Test class: Hybrent4_0_0rc1.Warehouse<br/>
+<a href="#Output-1894338251" onClick='toggleBox("Output-1894338251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894338251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894338251">
+=====Warehouse Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseOrder()'><b>Verify_WarehouseOrder</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>16</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseOrderDetail()'><b>Verify_WarehouseOrderDetail</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>10</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseShop()'><b>Verify_WarehouseShop</b><br>Test class: Hybrent4_0_0rc1.Warehouse<br/>
+<a href="#Output-344080246" onClick='toggleBox("Output-344080246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-344080246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-344080246">
+=====Shop Started sucessfully=====<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_Warehousefacility()'><b>Verify_Warehousefacility</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>8</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_WarehouseitemAddInShop()'><b>Verify_WarehouseitemAddInShop</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>21</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+<tr>
+<td title='Hybrent4_0_0rc1.Warehouse.Verify_Warehouseorder()'><b>Verify_Warehouseorder</b><br>Test class: Hybrent4_0_0rc1.Warehouse</td>
+<td></td>
+<td>24</td>
+<td>Hybrent4_0_0rc1.Warehouse@28feb3fa</td></tr>
+</table><p>
+</body>
+</html>

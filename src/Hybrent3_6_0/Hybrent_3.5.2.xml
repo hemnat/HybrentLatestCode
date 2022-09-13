@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hybrent" parallel="false">
+  <listeners>
+	<listener class-name="Hybrent.CustomReporter"/>
+</listeners>
+ <test name="Mobile Automation">
+ <classes>
+    <class name="Hybrent.CustomReporter"/>
+     <class name="Hybrent3_5_2.Login"/>
+      <class name="Hybrent3_5_2.Orders"/>
+      <class name="Hybrent3_5_2.BillAndReplace"/>
+      <class name="Hybrent3_5_2.Shipment"/>
+      <class name="Hybrent3_5_2.Invoice"/>
+      <class name="Hybrent3_5_2.Templates"/>
+      <class name="Hybrent3_5_2.ScanIn"/>
+      <class name="Hybrent3_5_2.ScanOut"/>
+      <class name="Hybrent3_5_2.Charge_Resident"/>
+      <class name="Hybrent3_5_2.Inventory_Transfer"/>
+      <class name="Hybrent3_5_2.Inventory_Receive"/>
+      <class name="Hybrent3_5_2.BillOnly"/>
+      <class name="Hybrent3_5_2.Claim"/>
+      <class name="Hybrent3_5_2.Cycle_Count"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
